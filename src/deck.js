@@ -5,8 +5,8 @@ module.exports = function buildDeck() {
   let shuffledDeck = [];
   let randomCardIndex = Math.floor(Math.random() * 52);
 
-  //let maximum = 52;
-  //for ( let i = maximum; i<= maximum; i++)
+  let maximum = 52;
+  for ( let i = maximum; i<= maximum; i++)
   shuffledDeck.push( deck[randomCardIndex]);
 
 
